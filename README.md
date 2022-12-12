@@ -1,0 +1,1 @@
+O endpoint do Intel Data Center Manager em "/DcmConsole/DataAccessServlet?action=getRoomRackData" é vulnerável a um ataque de injeção de SQL cego e autenticado quando a entrada fornecida pelo usuário para o parâmetro HTTP POST "dataName" é processada pelo aplicativo da web. As versões 4.1 e anteriores são afetadas.
